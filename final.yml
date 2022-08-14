@@ -1,5 +1,6 @@
 ---
-- hosts: cent7-node-1
+- name: Install Docker and Docker Compose on CentOS
+  hosts: localhost
   tasks:
     - name: "Installing Docker Prerequisite packages"
       yum:
