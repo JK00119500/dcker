@@ -1,7 +1,6 @@
 ---
 
 - name: Install Docker and Docker Compose on CentOS
-  gather_facts: false
   hosts: localhost 
   tasks:
     - name: Upgrade all packages
