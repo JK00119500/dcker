@@ -2,14 +2,14 @@
 - name: Install Docker and Docker Compose on CentOS
   hosts: localhost
   tasks:
-    - name: "Installing Docker Prerequisite packages"
-      yum:
-        name: "{{ item }}"
-        state: latest
-      loop:
-        - yum-utils
-        - device-mapper-persistent-data
-        - lvm2
+#    - name: "Installing Docker Prerequisite packages"
+#     yum:
+#        name: "{{ item }}"
+#        state: latest
+#      loop:
+#        - yum-utils
+#        - device-mapper-persistent-data
+#        - lvm2
 
     - name: " Installing Docker latest version"
       yum:
